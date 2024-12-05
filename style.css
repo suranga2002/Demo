@@ -1,0 +1,90 @@
+h1{ 
+    
+}
+body{
+    background-image: url(img/water\ forest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#heading{
+    text-align: center;
+    color: rgb(44, 61, 221);  
+}
+h2{
+    color: rgb(0, 68, 255);
+} 
+.paragraf{
+    color: black;
+    background-color: rgb(184, 182, 182);
+    text-align: justify;
+}
+.mtbox{
+    background-color: unset;
+}
+.titles{
+    color: aqua;
+    text-align: left;
+
+}
+.obb{
+    color: white;
+    background-color: rgb(48, 8, 66);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 20px;
+}
+.btn-sign{
+    background-color: rgb(0, 68, 255);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-sign:hover{
+    background-color: rgb(94, 143, 233);
+}
+.btn-sign:active{
+    background-color: red;
+    border: 2px solid ;
+}
+.box1{
+    position: absolute;/*page eke arambaye sita place kirimata*/
+    top: 1000px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(248, 53, 160);
+}
+.box2{
+    position: relative;/*thiyana thane sita sita place kirimata*/
+    top: 25px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+.navigationbar{
+    position: sticky;
+    top: 20px;
+    left: 40px;
+    width: 900px;
+    height: 45px;
+    background-color: black;
+}
+.searchbr{
+    position: relative;
+    top: 9px;
+    left: 710px;
+    width: 170px;
+    height: 20px;
+    background-color: white;
+    color:rgb(94, 91, 91)
+}
